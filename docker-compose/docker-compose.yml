@@ -58,7 +58,7 @@ services:
       # SPRING_DATASOURCE_USERNAME: activiti
       # SPRING_DATASOURCE_PASSWORD: mypassword
       # SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.PostgreSQLDialect
-      SPRING_DATASOURCE_URL: jdbc:mysql://dev-mes.top-sequence.com:22336/bpmn?useSSL=false&amp;serverTimezone=Asia/Shanghai
+      SPRING_DATASOURCE_URL: jdbc:mysql://dev-mes.top-sequence.com:22336/bpmn?useSSL=false&serverTimezone=Asia/Shanghai
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: ABC123abc
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.jdbc.Driver
@@ -108,7 +108,7 @@ services:
       # SPRING_DATASOURCE_USERNAME: activiti
       # SPRING_DATASOURCE_PASSWORD: mypassword
       # SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.PostgreSQLDialect
-      SPRING_DATASOURCE_URL: jdbc:mysql://dev-mes.top-sequence.com:22336/bpmn?useSSL=false&amp;serverTimezone=Asia/Shanghai
+      SPRING_DATASOURCE_URL: jdbc:mysql://dev-mes.top-sequence.com:22336/bpmn?useSSL=false&serverTimezone=Asia/Shanghai
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: ABC123abc
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.jdbc.Driver
