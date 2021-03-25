@@ -61,7 +61,8 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://dev-mes.top-sequence.com:22336/bpmn?useSSL=false&amp;serverTimezone=Asia/Shanghai
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: ABC123abc
-      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialec
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.jdbc.Driver
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialect
       SPRING_JPA_GENERATE_DDL: "true"
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       # ACTIVITI_SECURITY_POLICIES_0_NAME: "HR Group restricted to SimpleProcess and ConnectorProcess"
@@ -110,7 +111,8 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://dev-mes.top-sequence.com:22336/bpmn?useSSL=false&amp;serverTimezone=Asia/Shanghai
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: ABC123abc
-      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialec
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.jdbc.Driver
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialect
       SPRING_JPA_GENERATE_DDL: "true"
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING.GRAPHQL_JPA_QUERY_PATH: /notifications/graphql
